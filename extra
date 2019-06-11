@@ -1,0 +1,31 @@
+https://code.visualstudio.com/
+ https://github.com/ 
+https://github.com/Aakashdeveloper 
+
+
+head will contains on display part
+head will contains link (css, js,meta and title)
+
+body
+all content that we will display will be in body
+
+/************************
+        For Dummy text
+***********************/
+
+https://hi.lipsum.com/
+
+/************************
+    Type of Tag
+***********************/
+Block Level element
+> Always start from new line
+> Bit heavy as compare inline
+> P, h1
+
+Inline element
+> Start from same line
+> inline are light in weight
+> Span
+
+Self closing Tags

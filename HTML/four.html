@@ -1,0 +1,121 @@
+<html>
+    <head>
+        <title>Forms</title>
+    </head>
+    <body>
+        <center>
+            <h1>Forms</h1>
+        </center>
+        <hr/>
+        <div>
+            <form method="GET">
+                <div>
+                    <label for="fname">FirstName*</label>
+                    <div>
+                        <input type="text"
+                            value="john"
+                            id="fname"
+                            name="FNAME"
+                            required/>
+                    </div>
+                    
+                </div>
+                <div>
+                    <label for="lname">LastName</label>
+                    <div>
+                        <input type="text"
+                            placeholder="lastName"
+                            id="lname"
+                            name="LNAME"/>
+                    </div>
+                </div>
+                <div>
+                        <label for="email">Email</label>
+                        <div>
+                            <input type="email"
+                                placeholder="email"
+                                id="email"
+                                name="Email"
+                                required/>
+                        </div>
+                        
+                </div>
+                <div>
+                    <label for="pwd">Password</label>
+                    <div>
+                        <input type="password"
+                            placeholder="Password"
+                            minlength="8"
+                            id="pwd"
+                            name="pass"/>
+                    </div>
+                </div>
+                <div>
+                        <label for="dt">Date</label>
+                        <div>
+                            <input type="date"
+                                id="dt"
+                                name="date"/>
+                        </div>
+                </div>
+                <div>
+                        <label for="clr">Color</label>
+                        <div>
+                            <input type="color"
+                                id="clr"
+                                name="color"/>
+                        </div>
+                </div>
+                <div>
+                        <label for="phn">Phone</label>
+                        <div>
+                            <input type="text"
+                                maxlength="10"
+                                id="phn"
+                                name="phone"/>
+                        </div>
+                </div>
+                <div>
+                    <label>
+                        <input type="radio" 
+                               name="gender" 
+                               value="female"/>Female
+                    </label>   
+                    <label>
+                        <input type="radio" 
+                               name="gender" 
+                               value="male"/>Male
+                    </label>
+                    <label>
+                        <input type="radio" 
+                               name="gender" 
+                               value="lgbt"/>LGBT
+                    </label>    
+                </div>
+                <div>
+                    <label>
+                        <input type="checkbox" 
+                               name="codelang"
+                               value="javascript"/>JavaScript
+                    </label>
+                </div>
+                <div>
+                    <label>
+                        <input type="checkbox" 
+                               name="codelang"
+                               value="angular"/>Angular
+                    </label>
+                </div>
+                <div>
+                    <label>
+                        <input type="checkbox" 
+                               name="codelang"
+                               value="node"/>Node
+                    </label>
+                </div>
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </form>
+        </div>
+    </body>
+</html>

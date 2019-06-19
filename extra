@@ -38,3 +38,20 @@ Unordered List
 Descriptive List
 
 SEO => Search Engine optimation
+
+/************************
+   Way to Add CSS
+***********************/
+
+Style Tag
+Inline css
+External CSS
+
+inline css > Style Tag >External CSS
+
+/************************
+   Way to Target Element
+***********************/
+Tag Name
+Id    => For unique    => #
+Class=> for common     => .

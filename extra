@@ -55,3 +55,12 @@ inline css > Style Tag >External CSS
 Tag Name
 Id    => For unique    => #
 Class=> for common     => .
+
+/************************
+  Types of Border
+***********************/
+solid
+dotted
+dashed
+double
+groove

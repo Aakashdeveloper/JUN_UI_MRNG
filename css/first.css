@@ -1,0 +1,21 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color:dodgerblue;
+}
+h1{
+    color:darksalmon
+}
+#one{
+    background-color:mediumturquoise
+}
+#two{
+    width:200px;
+}
+.firstclass{
+    background-color:red;
+    color:white
+}
+.secondclass{
+    color:purple
+}

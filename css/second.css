@@ -1,6 +1,23 @@
+@font-face{
+    font-family: myType;
+    src: url(MeathFLF.ttf)
+}
+
 header{
     text-align: center;
 }
+h1{
+    font-size: 40px;
+    font-style: oblique;
+    font-family: myType;
+    font-weight: bold;
+    text-shadow: 3px 2px white;
+    margin:10px 20px 30px 40px;
+    visibility: visible;
+}
+/*top right bottom left*/
+
+
 .main{
     margin-left: 8%;
 }
@@ -14,10 +31,11 @@ header{
     background: thistle;
     border-radius:10%;
     padding:20px;
+    box-shadow: 15px 15px gray
 }
 
 .secondline{
-    margin-top:20px;
+    margin-top:25px;
     border:5px groove lightgreen;
     background: #7FDDEE;;
     color:#fff;
@@ -35,6 +53,24 @@ header{
     border-radius: 50%;
 }
 
+body{
+    background-image: radial-gradient(pink,green,skyblue,olive)
+}
+
+@media screen and (min-width:800px){
+    body{
+        background-image: linear-gradient(pink,green,skyblue,olive)
+    }
+}
+
+
+@media screen and (min-width:1000px){
+    body{
+        background: slateblue
+    }
+}
 
 /*
+background-image: linear-gradient(pink,green,skyblue,olive)
+}
 */

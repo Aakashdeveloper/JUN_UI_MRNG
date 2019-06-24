@@ -64,3 +64,16 @@ dotted
 dashed
 double
 groove
+
+
+///First 
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/Aakashdeveloper/learn-git.git
+git push -u origin master
+
+///second 
+git add .
+git commit -m "first commit"
+git push -u origin master

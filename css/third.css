@@ -1,0 +1,50 @@
+h1{
+    text-align: center;
+}
+
+#main{
+    height: 200px;
+    width:200px;
+    background: gray
+}
+
+
+#main:hover{
+    background: red;
+    /*transform: scale(2,2)
+    transform: rotate(30deg)
+    transform: skewY(40deg)*/
+    transform:translate(20px,30px);
+}
+
+#second{
+    height: 200px;
+    width:200px;
+    background: slateblue;
+    margin-top:50px;
+    -webkit-transition-property: height;
+    -moz-transition-property: height;
+    -o-transition-property: height;
+    transition-duration: 5s;
+    transition-delay: 2s;
+    pointer-events: auto;
+    cursor: pointer;
+}
+
+#second:hover{
+    height: 350px;
+}
+
+.imgdiv{
+    height: 400px;
+    width: 800px;
+    background: gray;
+}
+.imageang{
+    opacity: 1;
+    mix-blend-mode: color-burn
+}
+
+p{
+    letter-spacing: 4px;
+}

@@ -77,3 +77,21 @@ git push -u origin master
 git add .
 git commit -m "first commit"
 git push -u origin master
+/************************
+  Grid in bootstarp3
+***********************/
+col-xs-2
+sm 
+md
+lg
+/************************
+  Grid in bootstarp4
+***********************/
+col-2 ==col-xs-2
+sm
+md
+lg
+xl
+
+12/4
+12/6

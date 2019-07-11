@@ -2,3 +2,12 @@ Task:
 You have take input from the user and
 than convert in camal case and
 out "Thanks "username" for subscribing"
+
+
+Luck game
+
+you have generate random number upto 3 digit
+you have to ask user one number(user input can be anything)
+so normalize that.
+If number match say you win else give 2 more try 
+If in case not  match say you loose else say you win.

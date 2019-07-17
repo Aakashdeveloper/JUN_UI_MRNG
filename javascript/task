@@ -11,3 +11,73 @@ you have to ask user one number(user input can be anything)
 so normalize that.
 If number match say you win else give 2 more try 
 If in case not  match say you loose else say you win.
+
+
+var i;
+for(i=1;i<=3;i++)
+{
+     
+      var A = prompt("Please enter a number");
+      var B =parseInt(Math.floor(Math.random()*1000));
+     console.log("Random number:",B);
+    
+
+    if (B == A){
+       console.log("you won");
+}
+     else 
+{
+        console.log("try again");
+       
+ }
+}
+
+var A = prompt("Please enter a number");
+Math.floor(Math.random()*1000)
+var final;
+if( counter<3){
+      if(isNaN(a){
+            if(counter == 0){
+                  counter = 0
+            }else{
+                  counter = counter
+            }
+            console.log('please enter valid input)
+            alert()
+      }else{
+            counter = counter+1
+            final
+      })
+}else {
+      consele.log('loose')
+}
+
+ 
+
+
+var a = 123456
+undefined
+a.slice(3)
+VM1812:1 Uncaught TypeError: a.slice is not a function
+    at <anonymous>:1:3
+(anonymous) @ VM1812:1
+var a = 123456
+undefined
+a.toString()
+"123456"
+var out = a.toString().slice(3)
+undefined
+out
+"456"
+var ran = Math.floor(Math.random()*1000)
+undefined
+ran
+216
+ran.toString()
+"216"
+parseInt("456")
+456
+
+
+var counter = 0
+if()

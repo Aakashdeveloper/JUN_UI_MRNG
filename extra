@@ -95,3 +95,13 @@ xl
 
 12/4
 12/6
+
+2 Time
+
+var a = 10
+
+
+var a;
+a = 10;
+
+let => we cannot redecalre but we can reassign

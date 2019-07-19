@@ -105,3 +105,6 @@ var a;
 a = 10;
 
 let => we cannot redecalre but we can reassign
+
+https://www.w3schools.com/jsref/jsref_map.asp
+https://www.w3schools.com/jsref/jsref_filter.asp

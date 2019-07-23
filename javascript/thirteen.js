@@ -48,3 +48,19 @@ function isEven(a){
 //Es6
 const add = (a,b) => { return a+b}
 add(1,3)
+
+
+
+function add(a,b){
+    return a+b
+}
+
+var first = "A";
+var second = 2;
+
+
+const add = (str1,str2) => {
+    return str1+str2
+}
+
+add(first,second)

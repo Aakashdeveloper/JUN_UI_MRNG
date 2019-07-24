@@ -64,3 +64,14 @@ const add = (str1,str2) => {
 }
 
 add(first,second)
+
+
+function add(a,b){
+    return a+b
+}
+
+
+(function(){
+    out = 1+1
+    console.log(out)
+}())

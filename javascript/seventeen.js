@@ -43,7 +43,7 @@ function database(){
     this.add = function(a,b){ return a+b }
     this.sub = function(a,b){ return a-b }
     this.mul = function(a,b){ return a*b }
-    this.inset = function(table,name){
+    this.insert = function(table,name){
         let query = `Select * form ${table} where name = ${name}`
         return query
     }
@@ -51,7 +51,7 @@ function database(){
 
 var db = new database()
 undefined
-db.inset('student', 'john')
+db.insert('student', 'john')
 "Select * form student where name = john"
 
 var sum = new database()

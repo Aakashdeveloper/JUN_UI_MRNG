@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>Geo</title>
+    </head>
+    <body>
+        <button type="button" onclick="mygeolocation()">Location</button>
+        <p id="myloc"></p>
+        <script>
+            let loc = document.getElementById('myloc');
+            const mygeolocation=()=>{
+                if(navigator.geolocation){
+                    navigator.geolocation.getCurrentPosition(getPosition)
+                }else{
+                    loc.innerHTML = "Not Supported"
+                }
+            }
+
+            const getPosition =(data) => {
+                console.log(data)
+                loc.innerHTML = "Lat: "+data.coords.latitude+
+                "lon: "+data.coords.longitude
+            }
+        </script>
+    </body>
+</html>
